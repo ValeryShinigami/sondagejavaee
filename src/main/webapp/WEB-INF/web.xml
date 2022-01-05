@@ -15,4 +15,9 @@
     <servlet-class>com.mycompany.sondage.Ajouter</servlet-class>
   </servlet>
   
+  <servlet>
+    <servlet-name>Consulter</servlet-name>
+    <servlet-class>com.mycompany.sondage.Consulter</servlet-class>
+  </servlet>
+  
 </web-app>

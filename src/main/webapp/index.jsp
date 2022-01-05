@@ -16,7 +16,7 @@
 		
 		<a class="btn btn-primary" href="ajouterParticipant.jsp" role="button">S'incrire</a>
 		
-		<a class="btn btn-primary" href="connexionParticipant.jps" role="button">Consulter la liste des participants</a>
+		<a class="btn btn-primary" href="connexionParticipant.jsp" role="button">Consulter la liste des participants</a>
 
 
 	</form>

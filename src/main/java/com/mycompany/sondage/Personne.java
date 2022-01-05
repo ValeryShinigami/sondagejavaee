@@ -2,15 +2,15 @@ package com.mycompany.sondage;
 
 public class Personne {
 	
-	private String id;
+	private int id;
 	private String nom;
 	private String prenom;
 	private String email;
-	private String age;
+	private int age;
 	private String profession;
 	private String sexe;
 	
-	public Personne(String id, String nom, String prenom, String email, String age, String profession, String sexe) {
+	public Personne(int id, String nom, String prenom, String email, int age, String profession, String sexe) {
 		super();
 		this.id = id;
 		this.nom = nom;
@@ -21,11 +21,11 @@ public class Personne {
 		this.sexe = sexe;
 	}
 	
-	public String getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
@@ -53,11 +53,11 @@ public class Personne {
 		this.email = email;
 	}
 
-	public String getAge() {
+	public int getAge() {
 		return age;
 	}
 
-	public void setAge(String age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 
